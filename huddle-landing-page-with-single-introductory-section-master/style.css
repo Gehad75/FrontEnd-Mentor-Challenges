@@ -7,7 +7,8 @@ body {
 }
 
 .logo {
-    width: 200px;
+    padding-top: 10px;
+    width: 220px;
 }
 
 .container {
@@ -18,6 +19,8 @@ body {
 
 .img {
     grid-column-start: 1;
+    padding-top: 15px;
+    max-width: 100%;
 }
 
 .body-text {
@@ -31,21 +34,28 @@ body {
 
 h1 {
     font-family: 'Poppins', sans-serif;
-    font-weight: 600;
+    font-weight: 800;
+    font-size: 36px;
     line-height: 1.5;
+    padding-top: 40px;
     letter-spacing: 0.04em;
 }
 
+p {
+    font-size: 17px;
+}
+
 button {
-    width: 170px;
-    height: 50px;
+    width: 190px;
+    height: 55px;
     border-radius: 100px;
     color: hsl(257, 40%, 49%);
     background-color: #fff;
     border: none;
     margin-top: 10px;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    font-size: 16px;
+    font-size: 17px;
+    transition: all .3s ease-in-out;
 }
 
 .icons {
@@ -89,7 +99,11 @@ button:hover {
     .container {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr, 1fr, 50px, 50px;
-        padding-top: 70px;
+        padding: 70px 20px;
+    }
+
+    .logo {
+        padding-left: 20px;
     }
 
     .img {
